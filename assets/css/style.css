@@ -63,7 +63,9 @@ p {
     float: left;
     margin-right: 25px;
 }
-
+div {
+    display:block;
+}
 .float-right {
     float: right;
     margin-left: 25px;
