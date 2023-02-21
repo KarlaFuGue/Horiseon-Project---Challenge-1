@@ -3,6 +3,11 @@
     padding: 0;
     margin: 0;
 }
+figure {
+    border: 1px #cccccc solid;
+    padding: 2px;
+    margin: auto;
+}
 
 body {
     background-color: #d9dcd6;
@@ -58,19 +63,32 @@ p {
     background-size: cover;
     background-position: center;
 }
-
-.float-left {
+figure {
     float: left;
     margin-right: 25px;
+}
+figcaption {
+    background-color: black;
+    color: white;
+    padding: 2px;
+    text-align: right;
+    font-size: x-small;
 }
 div {
     display:block;
 }
-.float-right {
+displaying graphics {
     float: right;
     margin-left: 25px;
 }
-
+figcaption {
+    background-color: black;
+    color: white;
+    padding: 2px;
+    text-align: float-right;
+    font-size: x-small;
+    
+}
 .content {
     width: 75%;
     display: inline-block;
@@ -152,6 +170,7 @@ div {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+
 }
 
 .social-media-marketing {
@@ -167,8 +186,9 @@ div {
     max-height: 200px;
 }
 
-.online-reputation-management img {
+#online-reputation-management img {
     max-height: 200px;
+    float: right;
 }
 
 .social-media-marketing img {
